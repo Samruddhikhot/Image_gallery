@@ -64,6 +64,7 @@
 	</dependencies>
 
 	<build>
+	<finalName>ImageGallery</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

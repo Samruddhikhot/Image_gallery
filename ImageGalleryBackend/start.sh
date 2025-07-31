@@ -21,5 +21,5 @@ echo "🚧 Building the Spring Boot app..."
 
 # 3. Run the JAR
 echo "🚀 Starting Spring Boot backend..."
-java -jar target/ImageGallery-0.0.1-SNAPSHOT.jar
+java -jar target/ImageGallery.jar
 
