@@ -29,7 +29,11 @@ public class ImageController {
 	@Autowired
 	private ImageModelService imageService;
 	
-	
+	@GetMapping("/health")
+public ResponseEntity<String> healthCheck() {
+    return ResponseEntity.ok("OK");
+}
+
 	@PostMapping("/upload")
 	public ResponseEntity<String> addFile(
 	    @RequestParam("file") MultipartFile file,
