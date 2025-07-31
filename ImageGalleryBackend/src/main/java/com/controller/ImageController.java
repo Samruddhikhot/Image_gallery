@@ -29,6 +29,11 @@ public class ImageController {
 	@Autowired
 	private ImageModelService imageService;
 	
+	@GetMapping("/")
+public ResponseEntity<String> home() {
+    return ResponseEntity.ok("Image Gallery API is running ✅");
+}
+
 
 
 	@PostMapping("/upload")
