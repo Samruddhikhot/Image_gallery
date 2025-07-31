@@ -28,7 +28,7 @@ function MainGallery() {
   };
 
   const handleSort = async () => {
-    const res = await axios.get("https://image-gallery-4y8c.onrender.com/sort");
+    const res = await axios.get("https://image-gallery-zbk5.onrender.com/sort");
     setImages(res.data);
   };
 

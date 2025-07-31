@@ -1,5 +1,5 @@
 import axios from 'axios';
-const API_URL = 'https://image-gallery-4y8c.onrender.com';
+const API_URL = 'https://image-gallery-zbk5.onrender.com';
 
 export const fetchImages = () => axios.get(`${API_URL}/getAll`);
 export const uploadImage = (formData) => axios.post(`${API_URL}/upload`, formData);
