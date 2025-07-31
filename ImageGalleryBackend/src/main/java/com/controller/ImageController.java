@@ -23,7 +23,10 @@ import com.model.ImageModel;
 import com.service.ImageModelService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {
+    "http://localhost:5173", 
+    "https://willowy-biscotti-f1deef.netlify.app"
+})
 public class ImageController {
 
 	@Autowired
@@ -96,5 +99,5 @@ public class ImageController {
 	    return ResponseEntity.ok(imageService.sortByUploadDate());
 	}
 
-	/*http://localhost:8086/delete/102*/	
+	
 }
